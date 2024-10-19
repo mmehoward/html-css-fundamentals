@@ -23,7 +23,7 @@ function calculate(box) {
   inventory[box.id].qty = qty;
 
   const total = sum();
-  return '$${total}.00';
+  return `$${total}.00`;
 }
 
 window.addEventListener('DOMContentLoaded', () => {
